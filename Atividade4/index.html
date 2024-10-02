@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page Moderna</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/swiper/8.4.5/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" /> -->
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/75bee888f4.js" crossorigin="anonymous"></script>
+    <!-- Inclua o CSS do Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- Inclua o JS do Swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">Logo da Empresa</div>
+      <nav>
+        <ul>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#services">Serviços</a></li>
+          <li><a href="#testimonials">Testemunhos</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+      <a href="#contact" class="cta">Entre em Contato</a>
+    </header>
+
+    <section class="banner">
+      <!-- <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="images/banner1.jpg" alt="Banner 1" /></div>
+          <div class="swiper-slide"><img src="images/banner1.jpg" alt="Banner 2" /></div>
+          <div class="swiper-slide"><img src="assets/images/banner3.jpg" alt="Banner 3" /></div>
+        </div> -->
+      <!-- <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div> -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">Slide 1: Serviço/Produto 1</div>
+          <div class="swiper-slide">Slide 2: Serviço/Produto 2</div>
+          <div class="swiper-slide">Slide 3: Serviço/Produto 3</div>
+        </div>
+        <!-- Adicione os botões de navegação -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <!-- Adicione os indicadores -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>Sobre Nós</h2>
+      <p>Breve descrição sobre a empresa ou o produto.</p>
+    </section>
+
+    <section id="services">
+      <h2>Nossos Serviços</h2>
+      <div class="services-container"></div>
+    </section>
+
+    <section id="testimonials">
+      <h2>Testemunhos</h2>
+      <div class="testimonials-container"></div>
+    </section>
+
+    <section id="contact">
+      <h2>Contato</h2>
+      <form id="contactForm" class="formconfig">
+        <input type="text" id="name" placeholder="Nome" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <input type="tel" id="phone" placeholder="Telefone" />
+        <textarea id="message" placeholder="Mensagem" required></textarea>
+        <button type="submit" class="envform">Enviar</button>
+      </form>
+    </section>
+
+    <footer>
+      <div class="social-links">
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook footerIcon"></i> Facebook</a>
+        <a href="https://twitter.com/login"><i class="fa-brands fa-x-twitter"></i> Twitter</a>
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i> Instagram</a>
+      </div>
+      <p>Termos de uso | Política de privacidade</p>
+    </footer>
+    <!-- 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/swiper/8.4.5/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script> -->
+    <script src="script.js"></script>
+  </body>
+</html>

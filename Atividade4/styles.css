@@ -1,0 +1,143 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #70798d;
+  color: white;
+  padding: 10px 20px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header .cta {
+  background: #4950b3;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: white;
+}
+
+.banner {
+  height: 400px;
+}
+
+.swiper-container {
+  height: 100%;
+}
+
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+.services-container,
+.testimonials-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.services-container div,
+.testimonials-container div {
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 300px;
+}
+
+/* #name,
+#email,
+#phone,
+#message {
+  border-radius: 5px;
+} */
+
+/* .envform {
+  background: #4950b3;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+} */
+
+/* Estilos para o formulário */
+.formconfig {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Estilos para os campos de entrada */
+.formconfig input,
+.formconfig textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Estilo para o botão */
+.envform {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.envform:hover {
+  background-color: #218838;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.social-links a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: white;
+}
+
+
+
+.swiper-container {
+  width: 100%;
+  height: 300px; /* Ajuste conforme necessário */
+  margin-bottom: 10px;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: white;
+  background: #007aff; /* Cor de fundo para os slides */
+}
