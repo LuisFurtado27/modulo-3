@@ -35,15 +35,11 @@ header .cta {
 }
 
 .banner {
-  height: 400px;
-}
-
-.swiper-container {
-  height: 100%;
+  height: 500px;
 }
 
 section {
-  padding: 40px;
+  padding: 50px;
   text-align: center;
 }
 
@@ -63,24 +59,9 @@ section {
   width: 300px;
 }
 
-/* #name,
-#email,
-#phone,
-#message {
-  border-radius: 5px;
-} */
-
-/* .envform {
-  background: #4950b3;
-  padding: 10px 15px;
-  border-radius: 5px;
-  border: none;
-  color: white;
-} */
-
 /* Estilos para o formulário */
 .formconfig {
-  max-width: 400px;
+  max-width: 420px;
   margin: auto;
   padding: 20px;
   border: 1px solid #ccc;
@@ -91,10 +72,10 @@ section {
 /* Estilos para os campos de entrada */
 .formconfig input,
 .formconfig textarea {
-  width: 100%;
+  width: 90%;
   padding: 10px;
   margin: 10px 0;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   border-radius: 5px;
 }
 
@@ -104,7 +85,7 @@ section {
   color: white;
   border: none;
   border-radius: 5px;
-  padding: 10px;
+  padding: 15px;
   cursor: pointer;
 }
 
@@ -125,19 +106,76 @@ footer {
   color: white;
 }
 
-
+.banner {
+  position: relative; /* Para que os elementos filhos sejam posicionados relativos a ela */
+  margin-bottom: 40px;
+}
 
 .swiper-container {
   width: 100%;
-  height: 300px; /* Ajuste conforme necessário */
-  margin-bottom: 10px;
+  height: 400px;
 }
 
 .swiper-slide {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 24px;
-  color: white;
-  background: #007aff; /* Cor de fundo para os slides */
+  position: relative;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+  font-size: 28px;
 }
+
+.bannerimage {
+  max-width: 90%;
+  height: auto;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff;
+}
+
+.swiper-pagination {
+  position: absolute; /* Posiciona a paginação de forma absoluta */
+  bottom: 20px; /* Distância do fundo do slide */
+  left: 50%; /* Centraliza horizontalmente */
+  transform: translateX(-50%); /* Ajusta o posicionamento para o centro */
+  z-index: 10; /* Garante que a paginação fique acima da imagem */
+}
+
+.swiper-pagination-bullet {
+  background: #007aff; /* Cor padrão dos bullets */
+  width: 12px; /* Largura do bullet */
+  height: 12px; /* Altura do bullet */
+  border-radius: 50%; /* Faz os bullets serem circulares */
+  margin: 0 4px; /* Espaçamento entre os bullets */
+  opacity: 0.7; /* Opacidade padrão */
+  transition: opacity 0.3s; /* Suaviza a transição de opacidade */
+}
+
+.swiper-pagination-bullet-active {
+  background: #0056b3; /* Cor do bullet ativo */
+  opacity: 1; /* Opacidade total para o bullet ativo */
+}
+
+#about {
+  padding: 40px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#about h2 {
+  font-size: 28px;
+  margin-bottom: 80px;
+}
+
+/* #about p {
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+} */
