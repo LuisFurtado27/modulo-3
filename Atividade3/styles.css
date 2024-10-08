@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Permanent Marker", serif;
   background-color: #f4f4f4;
 }
 
@@ -33,6 +33,7 @@ nav a:hover {
 .container {
   display: flex;
   padding: 20px;
+  background-color: #fff;
 }
 
 section {
@@ -62,7 +63,7 @@ aside a:hover {
   color: #4caf50;
 }
 
-footer {
+/* footer {
   background-color: #4caf50;
   color: white;
   text-align: center;
@@ -70,4 +71,25 @@ footer {
   position: relative;
   bottom: 0;
   width: 100%;
+} */
+
+footer {
+  background-color: #4caf50; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  text-align: center; /* Centraliza o texto */
+  padding: 20px; /* Espaçamento interno */
+  position: absolute; /* Para posicionamento */
+  bottom: 0; /* Fica no fundo */
+  width: 100%; /* Largura total */
+}
+
+footer p {
+  margin: 0; /* Remove a margem padrão */
+  font-size: 14px; /* Tamanho da fonte */
+}
+
+.social-links a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: white;
 }
