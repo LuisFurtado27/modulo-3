@@ -54,9 +54,15 @@ section {
 .testimonials-container div {
   margin: 10px;
   padding: 20px;
-  border: 1px solid #ddd;
+  border: 1px solid #030303;
   border-radius: 5px;
   width: 300px;
+  border-radius: 20px;
+}
+
+.foto-cliente {
+  border-radius: 50%;
+  margin-bottom: 10px;
 }
 
 /* Estilos para o formulário */
@@ -113,25 +119,30 @@ footer {
 
 .swiper-container {
   width: 100%;
-  height: 400px;
+  height: 500px;
 }
 
 .swiper-slide {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column; /* Organiza o conteúdo em coluna */
+  justify-content: center; /* Centraliza verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
   position: relative;
   background-color: #f9f9f9;
   color: #333;
   text-align: center;
   font-size: 28px;
+  overflow: hidden; /* Impede que o conteúdo saia dos limites do slide */
 }
 
 .bannerimage {
-  max-width: 90%;
-  height: auto;
-  border-radius: 10px;
-  align-items: center;
+  max-width: 100%; /* Imagem não ultrapassa a largura do slide */
+  max-height: 100%; /* Imagem não ultrapassa a altura do slide */
+  height: auto; /* Mantém a proporção da imagem */
+  width: auto; /* Mantém a proporção da imagem */
+  border-radius: 10px; /* Bordas arredondadas */
+  object-position: top; /* Posiciona a imagem na parte superior */
+  margin-top: -30px; /* Ajuste a margem superior conforme necessário */
 }
 
 .swiper-button-next,
