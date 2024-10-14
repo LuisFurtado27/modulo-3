@@ -33,12 +33,12 @@ nav a:hover {
 .container {
   display: flex;
   padding: 20px;
-  background-color: #424242;
+  background: linear-gradient(-20deg, #d558c8 0%, #24d292 100%);
 }
 
 section {
   flex: 70%;
-  background-color: #616161;
+  background: linear-gradient(109.6deg, rgb(5, 84, 94) 40%, rgb(187, 187, 187) 91.1%);
   padding: 20px;
   margin-right: 20px;
   border: 2px solid #283eff;
@@ -47,7 +47,7 @@ section {
 
 aside {
   flex: 30%;
-  background-color: #757575;
+  background: linear-gradient(109.6deg, rgb(5, 84, 94) 16%, rgb(187, 187, 187) 91.1%);
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
@@ -58,8 +58,8 @@ aside ul {
 }
 
 aside a {
-  background-color: #757575;
   text-decoration: none;
+  color: bla;
 }
 
 aside a:hover {
