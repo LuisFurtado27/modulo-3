@@ -1,13 +1,16 @@
 body {
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 100%);
   margin: 0;
   font-family: "Permanent Marker", serif;
-  background-color: #2c2c2c; /* Cinza escuro para o fundo */
+  border-radius:25px;   
 }
+
 
 header {
   background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 100%);
   color: white;
   text-align: center;
+  border-radius:25px; 
   padding: 10px 0;
 }
 
@@ -19,6 +22,7 @@ nav ul {
 nav ul li {
   display: inline;
   margin: 0 15px;
+  color: black;
 }
 
 nav a {
@@ -31,9 +35,11 @@ nav a:hover {
 }
 
 .container {
+  font-size: 20px;
   display: flex;
   padding: 20px;
   background: linear-gradient(-20deg, #d558c8 0%, #24d292 100%);
+  border-radius:25px; 
 }
 
 section {
@@ -42,6 +48,7 @@ section {
   padding: 20px;
   margin-right: 20px;
   border: 2px solid #283eff;
+  border-radius:25px; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
@@ -50,16 +57,51 @@ aside {
   background: linear-gradient(109.6deg, rgb(5, 84, 94) 16%, rgb(187, 187, 187) 91.1%);
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius:25px; 
+  
+}
+
+img {
+  display: block;        /* Faz a imagem ser um bloco */
+  margin: 0 auto;      /* Margens automáticas para centralizar */
+  max-width: 100%;     /* Para responsividade */
+  border-radius:25px; /* Bordas arredondadas */
+  height: auto;        /* Mantém a proporção */
+}
+
+.top-image {
+  width: 22%; /* Faz a imagem ocupar toda a largura do aside */
+  height: auto; /* Mantém a proporção da imagem */  
+  margin-bottom: 60px; /* Espaço abaixo da imagem */
+  margin-right: 15px; /* Espaço à direita da imagem */
+  float: left;
+}
+
+.footer-aside-image {
+  width: 20%; /* Faz a imagem ocupar toda a largura do aside */
+  height: auto; /* Mantém a proporção da imagem */  
+  margin-top: 35px; /* Espaço abaixo da imagem */ 
+  margin-right: 10px;  
+  margin-right:-15px;
+  transform: scaleX(-1); /* Inverte a imagem horizontalmente */
+}
+
+h3{
+   font-size: 30px;
 }
 
 aside ul {
   list-style: none;
   padding: 0;
+  
 }
 
 aside a {
+  font-size: 21px;
   text-decoration: none;
-  color: bla;
+  color: black;
+  margin-left: 30px;
+ 
 }
 
 aside a:hover {
@@ -67,6 +109,7 @@ aside a:hover {
 }
 
 footer {
+  font-size: 20px;
   background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 100%);
   color: white;
   text-align: center;
@@ -74,6 +117,7 @@ footer {
   position: relative;
   bottom: 0;
   width: 100%;
+  border-radius:25px; 
 }
 
 footer p {
@@ -82,7 +126,16 @@ footer p {
 }
 
 .social-links a {
+  font-size: 18px;
   text-decoration: none;
   margin: 0 10px;
-  color: white;
+  color: white;  
+}
+
+.social-links-aside{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-left:-36px;
+  margin-top:50px;
 }
